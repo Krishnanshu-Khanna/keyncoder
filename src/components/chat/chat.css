@@ -1,0 +1,29 @@
+.chat-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    button {
+        background-color: transparent;
+        color: black; /* Default color */
+        border: none;
+        outline: none;
+        background: none;
+        align-self: flex-end;
+        margin-left: 10px;
+
+        .chat-icon {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    /* Apply different color when lightMode is true */
+    .light-mode button {
+        color: white;
+    }
+
+    .closed {
+        /* Styles for closed state */
+    }
+}
